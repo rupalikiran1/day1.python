@@ -30,48 +30,46 @@ print(q*r)
 print(q/r)
 print(q%r)
 
-
-
-def Calculator(x,y):
+def krupali(x,y):
     print(x+y)
     print(x-y)
     print(x*y)
     print(x/y)
     print(x%y)
 
-    Calculator(12,3)
+krupali(12,3)
 
-    # program 3
+# program 3
 
-    # function without parameter and without return type
+ # function without parameter and without return type
 
-    def addA():
-        print(9+9)
+def addA():
+    print(9+9)
    
-    addA()
+addA()
 
 
-    # function with parameter and without return type
+# function with parameter and without return type
 
-    def addB(x,y):
-        print(x+y)
+def addB(x,y):
+    print(x+y)
 
-    addB(12,3)
-    addB(1,4)
-    addB(11,3)
+addB(12,3)
+addB(1,4)
+addB(11,3)
 
 
 # function with parameter and with return type
     
-    # 100 - shown
-    #100 - given
+# 100 - shown
+ #100 - given
 
-    def addC(x,y):
-        return x + y
-    e = addC(12,5)
-    print(e)
-    print(e + e)
-    print(e * e)
+def addC(x,y):
+    return x + y
+e = addC(12,5)
+print(e)
+print(e + e)
+print(e * e)
     
 
 
