@@ -69,7 +69,23 @@ for x in range(1,6):#2,#3
     if x == 3:
         break
 
+# program 9
+# continue with for loop
+    
+for x in range(1,6): #2 #3 #4 #5
+    if x == 3:
+        continue
+    print(x) #1 #2 #4 #5
+    
 
+
+# program 10
+    
+for x in range(6,1,-1):
+    if x == 3:
+        continue
+    print(x)
+    
 
 
     
