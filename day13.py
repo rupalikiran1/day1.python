@@ -62,3 +62,57 @@ print(e16)
 
 e17 = e15.isalnum()
 print(e17)
+
+e18 = "hello"
+e19 = "1234"
+e20 = "h123"
+e21 = "h12#"
+print(e19.isalnum())
+print(e20.isalnum())
+print(e21.isalnum())
+
+# revision
+first_name = "krupa"
+print(len(first_name))
+#print(len(first_name.rstrip()))
+#print(len(first_name.lsstrip()))
+#print(len(first_name.strip()))
+
+# program 3
+last_name = "kotkar"
+print(last_name.startswith("k"))
+print(last_name.startswith("ko"))
+print(last_name.startswith("Ko"))
+
+print(last_name.endswith("r"))
+print(last_name.endswith("ar"))
+print(last_name.endswith("Kar"))
+
+# program 4
+marks = "123"
+print(marks.isdigit())# 0-9
+print(marks.isalpha())#A-Z a-Z
+print(marks.isalnum())
+print(type(marks))
+
+# program 5
+full_name = "a"
+e3 = full_name.isspace()
+print(e3)
+# program 6
+firstN  = "krupa"
+e4 = firstN.capitalize()
+print(e4)
+
+e4 = "I AM LEARNING JAVASCRIPT"
+print(e4.istitle())
+
+# program 7
+info = ["krupa","kotkar","7744087820"]
+e5 = "@".join(info)
+print(e5)
+
+# program 8
+email = "krupa@gmail.com"
+e6 = email.split('@')#["krupa","gmail.com"]
+print(e6)
