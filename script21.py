@@ -17,7 +17,7 @@
 #mona.display_name()
 
 # program 2
-class Person2():
+class Person2:
     country = "bharat"
     def _init_(self,fn,ln):
         self.firstName = fn
